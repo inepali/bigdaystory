@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { LayoutGroup, motion } from 'framer-motion';
 import React, { forwardRef, useId } from 'react';
 import { Link } from './Link';
-import { TouchTarget } from './Button';
+import { TouchTarget } from './button';
 
 export function Navbar({ className, ...props }: React.ComponentPropsWithoutRef<'nav'>) {
   return <nav {...props} className={clsx(className, 'flex flex-1 items-center gap-4 py-2.5')} />;

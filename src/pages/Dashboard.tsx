@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Heading } from '../components/Heading';
 import { useAuth } from '../contexts/AuthContext';
 import { UserType } from '../types/auth';

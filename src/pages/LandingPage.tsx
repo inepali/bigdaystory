@@ -1,10 +1,10 @@
-import React from 'react';
-import { Button } from '../components/Button';
+
+import { Button } from '../components/button';
 import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function LandingPage() {
-  const { currentUser } = useAuth();
+  const currentUser = useAuth();
 
   if (currentUser) {
     return <Navigate to="dashboard" />;
